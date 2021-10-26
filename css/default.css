@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'gothammedium';
+    src:
+        url('../fonts/gothammedium.woff2') format('woff2'),
+        url('..fonts/gothammedium.woff') format('woff');
+    font-weight: normal;
+    font-style : normal;
+}
+
+@font-face {
+    font-family: 'gothambold';
+    src: 
+    url('../fonts/gothambold-webfont.woff2') format('woff2'),
+        url('../fonts/gothambold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style : normal;
+}
+
+@font-face {
+    font-family: 'gothambook';
+    src: 
+    url('../fonts/gothambook-webfont.woff2') format('woff2'),
+        url('../fonts/gothambook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style : normal;
+
+}
+
+body, h1, h2{
+    font-family: 'gothammedium';
+}
+
+#parte2{
+    font-size: 28pt;
+}
+
+#parte3{
+    font-size: 22pt;
+    color: #e17b26;
+}
+#parte3 h2{
+    font-size: 40pt;
+    font-family: gothambold;
+}
+
+#parte4{
+    color: #fff;
+    background: url('../img/parte4.jpg');
+    background-repeat: no-repeat;
+    
+}
+#parte4 p{
+    font-size: 15pt;
+    line-height: 1.3;
+}
+#parte4 h1{
+    font-size: 20pt;
+}
+#parte4 h2{
+    font-size: 30pt;
+    line-height: 1;
+    font-family: gothambold;
+}
+
+#parte5{
+    background: url('../img/parte5.jpg');
+    background-repeat: no-repeat;
+}
+#parte5 h1{
+    color: #e17b26;
+    font-size: 20pt;
+    font-family: gothambold;
+}
+#parte5 p{
+    margin-top: 3%;
+    font-size: 14pt;
+    line-height: 1.3;
+     font-family: gothambook;
+}
+
+#parte6{
+    background: url('../img/parte6.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 448px;
+}
+#parte6 h1{
+    color:#e17b26;
+    font-size: 30pt;
+}
+#parte6 p{
+    font-size: 17pt;
+    line-height: 1.3;
+    font-family: gothambook;
+}
+
+#parte7{
+    background-color: #e17b26;
+}
+#parte7 h1{
+    font-family: gothambold;
+    font-size: 20pt;
+}
+#parte7 h2{
+    font-family: gothambold;
+    font-size: 15pt;
+}
+#parte7 p{
+    font-size: 15pt;
+    font-family: gothambook;
+    margin-bottom: 0rem;
+
+}
+.border{
+    border: 3px solid #e17b26 !important;
+}
+
