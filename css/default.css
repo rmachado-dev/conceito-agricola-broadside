@@ -115,3 +115,46 @@ body, h1, h2{
     border: 3px solid #e17b26 !important;
 }
 
+#parte8{
+    background: url('../img/parte8.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    /* min-height: 871px; */
+}
+#parte8 h1{
+    font-size: 25pt;
+    color: #e17b26;
+    font-family: gothambold;
+}
+#parte8 p{
+    font-size: 15pt;
+    font-family: gothambold;
+    margin: 30px 0 30px 0;
+}
+#bg-tema{
+    background-color: #e17b26;
+    color: #fff;
+}
+
+.item{
+    background-color: #e17b26;
+    color: #fff;
+    border-radius: 25px;
+    width: 100%;
+    text-align: center;
+    font-size: 15pt;
+    font-family: gothambold;
+}
+#parte9{
+    font-size: 15pt;
+}
+#parte9 h1{
+    color: #e17b26;
+    font-size: 25pt;
+}
+.border1{
+    border: 2px #d5d5d5 solid;
+}
+.bg-meios{
+    background-color: #d5d5d5;
+}
