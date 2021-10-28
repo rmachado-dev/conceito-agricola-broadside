@@ -194,6 +194,10 @@ body, h1, h2{
     font-family: gothambold;
     margin: 0;
 }
+#parte9 p{
+    margin: 0;
+}
+
 .border1{
     border: 2px #d5d5d5 solid;
 }
