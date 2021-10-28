@@ -28,10 +28,48 @@
 
 body, h1, h2{
     font-family: 'gothammedium';
+    margin: 0;
+    padding: 0;
 }
+
+/* mobile first */
+@media (max-width: 425px) {
+    #parte2{
+        font-size: 20pt !important;
+    }
+    #parte3 p{
+    font-size: 16pt !important;
+    }
+    #parte3 h2{
+    font-size: 28pt !important;
+    }
+    #parte4 h2{
+    font-size: 21pt !important;
+    }
+    #parte6 {
+    background-position: left !important;
+    }
+    #parte7 p {
+    margin-bottom: 1rem !important;
+    }
+    #parte8 p{
+        margin-bottom: 0 !important;
+        margin-top: 10px !important;
+        font-size: 15pt !important;
+    }
+    #parte13 h1 {
+    font-size  : 20pt !important;
+    }
+    #parte13 h2 {
+    font-size  : 14pt !important;
+}
+    
+}
+
 
 #parte2{
     font-size: 28pt;
+    line-height: 1.3;
 }
 
 #parte3{
@@ -87,6 +125,7 @@ body, h1, h2{
 #parte6 h1{
     color:#e17b26;
     font-size: 30pt;
+    font-family: gothambold;
 }
 #parte6 p{
     font-size: 17pt;
@@ -109,7 +148,6 @@ body, h1, h2{
     font-size: 15pt;
     font-family: gothambook;
     margin-bottom: 0rem;
-
 }
 .border{
     border: 3px solid #e17b26 !important;
@@ -118,8 +156,9 @@ body, h1, h2{
 #parte8{
     background: url('../img/parte8.jpg');
     background-repeat: no-repeat;
-    background-position: right;
-    /* min-height: 871px; */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 #parte8 h1{
     font-size: 25pt;
@@ -131,9 +170,10 @@ body, h1, h2{
     font-family: gothambold;
     margin: 30px 0 30px 0;
 }
-#bg-tema{
+#bg-tema, .bg-tema{
     background-color: #e17b26;
     color: #fff;
+    margin: 0;
 }
 
 .item{
@@ -150,11 +190,60 @@ body, h1, h2{
 }
 #parte9 h1{
     color: #e17b26;
-    font-size: 25pt;
+    font-size: 23pt;
+    font-family: gothambold;
+    margin: 0;
 }
 .border1{
     border: 2px #d5d5d5 solid;
 }
 .bg-meios{
     background-color: #d5d5d5;
+}
+
+section{
+    background-color: #3c3b3b;
+}
+section h1{
+    font-size: 23pt;
+    font-family: gothambold;
+    margin: 0;
+    padding: 0;
+}
+section h2{
+    font-size: 15pt;
+    font-family: gothambold;
+    margin: 0;
+    color: #fff;
+}
+
+
+#parte10 h1{
+    font-size: 28pt;
+    color: #fff;
+    font-family: gothambold;
+}
+
+#parte10 p{
+   font-size: 20pt;
+   font-family: gothambook;
+}
+
+#parte13 {
+    background         : url('../img/parte13.jpg');
+    background-repeat  : no-repeat;
+    background-position: center;
+    min-height      : 973px;
+}
+
+#parte13 h2{
+    color: #e17b26;
+    font-family: gothambold;
+    font-size: 17pt;
+}
+
+#parte13 h1{
+    color: #fff;
+    font-family: gothambook;
+    font-size: 35pt;
 }
